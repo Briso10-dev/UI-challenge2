@@ -1,12 +1,18 @@
-
+import Logo from "./logo"
+import Form from "./form"
+import PackingList from "./packing-list-"
+import Stats from "./stats"
 
 function App() {
 
   return (
     <>
-      <p className="text-8xl text-center text-blue-400">
-        Hello World 
-      </p>
+      <div className="grid grid-rows-[auto_auto_1fr_auto] ">
+      <Logo />
+      <Form />
+      <PackingList />
+      <Stats />
+      </div>
     </>
   )
 }
