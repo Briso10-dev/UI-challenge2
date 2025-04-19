@@ -4,6 +4,14 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  theme: {
+    extend: {
+      fontFamily: {
+        monoton: ['"Monoton"', 'cursive'],
+      },
+    },
+  },
+
   plugins: [
     react(),
     tailwindcss()
