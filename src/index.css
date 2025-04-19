@@ -4,6 +4,7 @@
   padding: 0;
   border: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html{
@@ -14,4 +15,8 @@ body{
   width: 100vw;
   height: 100vh;
   overflow-x: none;
+  font-family: sans-serif;
+  color: #5a3e2b;
+  font-family: "Quicksand";
+  font-weight: 500;
 }
