@@ -61,7 +61,7 @@ A modern, interactive React web app to help you plan and manage everything you n
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-All contributions are welcome! 🎉
+All contributions are welcome! so just fell free 🎉
 
 ---
 
