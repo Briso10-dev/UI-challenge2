@@ -1,5 +1,8 @@
 export default function Item({item}){
     return (
-        <li>{item.description} </li>
+        <span>
+            {item.quantity}
+            {item.description}
+        </span>
     ) 
 }
