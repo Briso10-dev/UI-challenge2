@@ -1,6 +1,6 @@
 import Logo from "./logo"
 import Form from "./form"
-import PackingList from "./packing-list-"
+import PackingList from "./packing-list"
 import Stats from "./stats"
 
 
