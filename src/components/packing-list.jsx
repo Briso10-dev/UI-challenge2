@@ -8,11 +8,12 @@ const initialItems = [
 
 export default function PackingList(){
     return(
-        <ul className=" bg-[#5a3e2b] text-[#ffebb3] text-[2rem] py-4 flex flex-col  items-center gap-4">
-            {initialItems.map((item) => (
-                <Item item={item} />
-            ))}
-        </ul>
-
+        <div  className=" bg-[#5a3e2b] text-[#ffebb3] text-[2rem] py-4 flex flex-col justify-between items-center gap-4">
+            <ul>
+                {initialItems.map((item) => (
+                    <Item item={item} />
+                ))}
+            </ul>
+        </div>       
     )
 }
