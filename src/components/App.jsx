@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="grid grid-rows-[auto_auto_1fr_auto] ">
+      <div className="grid grid-rows-[auto_auto_1fr_auto] h-screen">
       <Logo />
       <Form />
       <PackingList />
