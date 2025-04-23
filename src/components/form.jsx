@@ -2,7 +2,7 @@
 
 export default function Form(){
     return(
-        <div className="bg-[#e5771f] py-[2rem] flex items-center justify-center gap-[0.8rem] ">
+        <div className="bg-[#e5771f] py-[2rem] flex items-center justify-center gap-[0.8rem] text-[2.2rem]">
             <h3>What do you need for your 😍 trip?</h3>
         </div>
     )
