@@ -8,6 +8,10 @@ export default function Form(){
 
     function handleSubmit(e){
         e.preventDefault();
+
+        const newItem = {description,quantity,packed: false,
+        id: Date.now() };
+        console.log(newItem);
     }
 
     return(
