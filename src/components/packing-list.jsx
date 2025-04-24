@@ -12,7 +12,7 @@ export default function PackingList(){
         <div  className="bg-[#5a3e2b] text-[#ffebb3] text-[2rem] flex flex-col justify-between items-center">
             <ul className="flex justify-between p-100">
                 {initialItems.map((item) => (
-                    <Item item={item} />
+                    <Item item={item} key={item.id}/>
                 ))}
             </ul>
         </div>       
