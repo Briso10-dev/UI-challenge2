@@ -14,6 +14,9 @@ export default function Form(){
         const newItem = {description,quantity,packed: false,
         id: Date.now() };
         console.log(newItem);
+
+        setDescription('');
+        setQuantity('');
     }
 
     return(
