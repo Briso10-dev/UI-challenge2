@@ -13,14 +13,13 @@ export default {
                 lg: 'var(--radius)',
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)',
-                step: '15px'
             },
             fontFamily: {
-                inter: ["inter"]
+                 monoton: ["Monoton"],
+                 quicksand : ["Quicksand"]
             },
             colors: {
-                background: 'hsl(var(--background))',
-                foreground: 'hsl(var(--foreground))',
+                
             }
         }
     }
