@@ -1,6 +1,8 @@
+import { useState } from "react";
 
 
 export default function Form(){
+    cont [description,setDescription] = useState("TEST");
 
     function handleSubmit(e){
         e.preventDefault();
@@ -17,7 +19,10 @@ export default function Form(){
                     </option> 
                 ))}
             </select> 
-            <input type="text" placeholder="Item..." />
+            <input type="text" 
+            placeholder="Item..." 
+            value={description} 
+             onChange={(e)=> setDescription(e.target.value)} />
             <button className="uppercase bg-[#76c7ad]">Add</button>
         </form>
     )
