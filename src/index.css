@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
   padding: 0;
@@ -14,9 +16,8 @@ html{
 body{
   width: 100vw;
   height: 100vh;
-  overflow-x: none;
-  font-family: sans-serif;
+  overflow-x: hidden;
   color: #5a3e2b;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
 }

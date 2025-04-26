@@ -15,12 +15,13 @@ export default {
                 sm: 'calc(var(--radius) - 4px)',
             },
             fontFamily: {
-                 monoton: ["Monoton"],
-                 quicksand : ["Quicksand"]
+                 monoton: ["Monoton", "cursive"],
+                 quicksand : ["Quicksand", "sans-serif"]
             },
             colors: {
                 
             }
         }
-    }
+    },
+    plugins: [],
 }
