@@ -69,10 +69,6 @@ All contributions are welcome! so just fell free 🎉
 
 This project is for learning and personal use. Feel free to use and modify it as you wish!
 
----
-
-## 💡 Inspiration
-
-This project is part of the [Udemy React Crash Course](https://www.udemy.com/) and inspired by the challenge to build a functional and beautiful packing list app.
-
 Happy packing and happy coding! 🚀
+
+---
