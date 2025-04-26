@@ -1,11 +1,15 @@
 export default function Item({item}){
     return (
-        <div className="flex gap-4 ">
-            <span style={item.packed ? {textDecoration: "line-through" } : {}}>
-                {item.quantity} 
-                {item.description}
+        <li className="flex items-center gap-3">
+            <input 
+                type="checkbox" 
+                value={item.packed} 
+                className="h-5 w-5 accent-[#e5771f]"
+            />
+            <span className={item.packed ? "line-through" : ""}>
+                {item.quantity} {item.description}
             </span>
-            <button>❌</button>
-        </div>
+            <button className="cursor-pointer bg-none border-none text-lg p-2 translate-y-0.5">❌</button>
+        </li>
     ) 
 }
